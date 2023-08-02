@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'sans serif', 'Raleway'; /* change font here*/
+    font-weight: 300;
+}
+
+/* GET RID OF THIS .testdiv SECTION */
+.testdiv{ font-size: 200px;} /* the .testdiv is to make sure header is fixed */
+/* - - - - - - - - - - - - - - - - - */
+body{
+    padding-left: 20%; /* body top padding and header height need to match for page to be flush with header*/
+}
+
+header{
+    height: 100%;
+    width: 20%;
+
+    position: fixed; 
+    left: 0;
+    top:0;
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+
+    background-color: white;
+    border-right: 1px solid #808080;
+}
+
+header a{
+    text-decoration: none;
+    color: #808080;
+    font-size: 80%;
+}
+
+header a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#logo{/*logo container div*/
+    height: 20%;
+}
+#nav {/*navigation container div*/
+    height: 60%; /* */
+
+    display: flex;
+    flex-wrap: nowrap; /* default value */
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logo-img{
+    width: 100%;
+    /*height: 100%;*/
+    display: box;
+    padding: 0;
+    margin: 0;
+}
+
+@media(max-width: 1300px){
+
+
+}
+
+@media(max-width: 900px){
+
+    header a { font-size: 15px; }
+
+    .nav { margin-bottom: 20px; } /* space at bottom of each navigation div (HOME ABOUT ETC) */
+
+    #nav { display: flex; flex-direction: column; justify-content: space-evenly; align-items: center; padding: 20px; padding-bottom: 10px; padding-top: 10px;}
+    #nav { width: 80%; height: auto;}
+    body   { padding-top: 330px; padding-left:0%}
+    header { height:      330px; }
+    header { width: 100%; display: flex; flex-direction: column; justify-content: space-evenly; align-items: center; padding-top: 30px /* #nav padding-bottom + .nav margin-bottom*/;}
+    header { border-right: 0px; border-bottom: 1px solid #808080;}
+    #logo {
+        width: 40%;
+        height: auto;
+    }
+}

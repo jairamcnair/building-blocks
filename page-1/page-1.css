@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'sans serif', 'Raleway';
+}
+
+body {
+	/*display: flex;
+	flex-direction: column;*/
+	padding-bottom: 40px;
+	background-color: #F6F5F1;
+	padding-top: 90px;
+}
+/* ************************************************************************************************************** */
+
+/*********************************************************************************/
+
+page{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	
+	background-color: #F6F5F1;
+	
+}
+
+.side-div {
+	width: 15%;
+}
+
+#middle-div{
+	width: 70%;
+	border-left: 1px solid #808080;
+	border-right: 1px solid #808080;
+	background-color: white;
+	
+}
+
+
+.middle-sub-div{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	/*margin-bottom: 2%;*/
+	
+}
+.banner{
+	width: 100%;
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.pic{
+	width: 50%;
+}
+
+.text{
+	width: 40%;
+	height: auto;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding: 50px;
+}
+
+h1{
+	margin-bottom: 20px;
+	font-weight: 100;
+}
+
+p {
+	line-height: 30px;
+}
+
+.pictures{
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.text-only{
+	width: 95%;
+	text-align: center;
+	background-color: #e9c6b7;
+	color: whitesmoke;
+	margin: 0%;
+  
+}
+
+
+
+#rates{
+	width: 60%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+	background-color: #fafafa;
+	color:#808080;
+}
+
+h3{
+  font-weight: 400;
+}
+/*********************************************************************************/
+
+/*********************************************************************************/
+
+
+/* ------------------------------------------------------------------------------------ */
+
+@media(max-width: 1700px){
+  /* no change */
+  page{
+   /*border: 2px solid green;*/
+  }
+  }
+  
+  
+  /* ------------------------------------------------------------------------------------ */
+  
+  @media(max-width: 1600px){
+  
+    /* no change */
+    page{
+    	/*border: 2px solid red;*/
+    }
+ 
+  }
+  
+  /* ------------------------------------------------------------------------------------ */
+  
+  @media(max-width: 1500px){
+  
+    /* no change */
+    page{
+     /*border: 2px solid orange;*/
+    }
+    
+    .text h1{ font-size: 20px;}
+	
+	.text p{ font-size: 13px; }
+   
+
+  }
+  
+  /* ------------------------------------------------------------------------------------ */
+  
+  @media(max-width: 1400px){
+  
+    /* no change */
+    page{
+     /*border: 2px solid purple;*/
+    }
+  }
+  
+  /* ------------------------------------------------------------------------------------ */
+  
+  @media(max-width: 1300px){
+  
+    /* no change */
+    page{
+    /*border: 2px solid blue;*/
+    }
+   
+  }
+  
+  /* ------------------------------------------------------------------------------------ */
+  
+  @media(max-width: 1200px){
+  
+    /* no change */
+    page{
+    /*border: 2px solid pink;*/
+    }
+  	.side-div { width: 10%; }
+
+	#middle-div{ width: 80%;}
+	
+	.text{ padding-left: 100px; padding-right: 100px; padding: 50px;}
+	
+    #rates{ padding-left: 100px; padding-right: 100px; padding: 50px; }
+
+	.middle-sub-div{ margin-bottom: 1%; }
+  	
+  }
+  
+  /* ------------------------------------------------------------------------------------ */
+  
+  @media(max-width: 1100px){
+  
+    /* no change */
+    page{
+    /*border: 2px solid yellow;*/
+    }
+    
+    .side-div{ width: 5%; }
+
+	#middle-div{ width: 90%; }
+
+  }
+  
+  /* ------------------------------------------------------------------------------------ */
+  
+  @media(max-width: 1000px){
+  
+    page{
+    /*border: 2px solid green;*/
+    }
+   
+  }
+  
+  /* ------------------------------------------------------------------------------------ */
+  
+  @media(max-width: 900px){
+  
+    page{
+     /*border: 2px solid red;*/
+    }
+    
+    .middle-sub-div{ width: 100%; display: flex; flex-direction: column; margin-bottom: 50px; }
+	
+	.text{ width: 90%; }
+	
+    #rates{ width: 90%;}
+	.pic{ width: 90%; }
+
+  }
+  
+  /* ------------------------------------------------------------------------------------ */
+  
+  @media(max-width: 800px){
+  
+    page{
+     /*border: 2px solid orange;*/
+    }
+  }
+  
+  /* ------------------------------------------------------------------------------------ */
+  
+  @media(max-width: 700px){
+  
+    page{
+      /*border: 2px solid purple;*/
+    }
+
+  }
+  
+  /* ------------------------------------------------------------------------------------ */
+  
+  @media(max-width: 600px){
+  
+    page{
+     /*border: 2px solid blue;*/
+    }
+  }
+  
+  /* ------------------------------------------------------------------------------------ */
+  
+  @media(max-width: 500px){
+  
+    page{
+      /*border: 2px solid pink;*/
+    }
+ 
+  }
+  
+  /* ------------------------------------------------------------------------------------ */
+  
+  @media(max-width: 400px){
+  
+    page{
+      /*border: 2px solid yellow;*/
+    }
+  
+  }

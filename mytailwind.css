@@ -143,6 +143,13 @@
 .h-100-px{height: 100px;}
 .h-auto{height:auto;}
 
+/* SHADOWS */
+.shadow-xs{box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);}
+.shadow-sm{box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);}
+.shadow-md{box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);}
+.shadow-lg{box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)}
+.shadow-xl{box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);}
+
 
 /* COMPONENTS */
 .button-reg{
@@ -202,6 +209,44 @@
     border-radius: 10px;
 }
 
+
+
+
+
+
+.text-input{
+    min-height: 50px;
+    min-width: 250px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.text-input:focus, .textarea-input:focus{
+    outline: 1px solid #a09e9e;
+}
+
+.textarea-input{
+    min-height: 400px;
+    min-width: 250px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    text-wrap: wrap;
+    margin-top: 10px;
+}
+
+.date-input{
+    min-height: 40px;
+    min-width: 250px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    margin-top: 10px;
+}
 /* do the button colors*/
 
 .row-div{

@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
 /* COLORS */
 --color-black:#000;--color-white: #fff;
@@ -21,7 +21,7 @@
   }
 
 
-  * {margin: 0px;padding: 0px;box-sizing: border-box;}
+  * {margin: 0px;padding: 0px;box-sizing: border-box;font-family: "Lato", serif;font-weight: 400;font-style: normal;}
 
 
 
@@ -48,22 +48,22 @@
 .bg-pink-50{background-color: var(--color-pink-50)}.bg-pink-100{background-color: var(--color-pink-100)}.bg-pink-200{background-color: var(--color-pink-200)}.bg-pink-300{background-color: var(--color-pink-300)}.bg-pink-400{background-color: var(--color-pink-400)}.bg-pink-500{background-color: var(--color-pink-500)}.bg-pink-600{background-color: var(--color-pink-600)}.bg-pink-700{background-color: var(--color-pink-700)}.bg-pink-800{background-color: var(--color-pink-800)}.bg-pink-900{background-color: var(--color-pink-900)}.bg-pink-950{background-color: var(--color-pink-950)}
 
 /* BLACK, WHITE */
-.hover-bg-white{background-color: var(--color-white)}.hover-bg-black{background-color: var(--color-black)}
+.hover-bg-white:hover{background-color: var(--color-white)}.hover-bg-black:hover{background-color: var(--color-black)}
 /* 50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950 are the levels of each color*/
 /* RED BACKGROUND COLOR */
-.hover-bg-red-50{background-color: var(--color-red-50)}.hover-bg-red-100{background-color: var(--color-red-100)}.hover-bg-red-200{background-color: var(--color-red-200)}.hover-bg-red-300{background-color: var(--color-red-300)}.hover-bg-red-400{background-color: var(--color-red-400)}.hover-bg-red-500{background-color: var(--color-red-500)}.hover-bg-red-600{background-color: var(--color-red-600)}.hover-bg-red-700{background-color: var(--color-red-700)}.hover-bg-red-800{background-color: var(--color-red-800)}.hover-bg-red-900{background-color: var(--color-red-900)}.hover-bg-red-950{background-color: var(--color-red-950)}
+.hover-bg-red-50:hover{background-color: var(--color-red-50)}.hover-bg-red-100:hover{background-color: var(--color-red-100)}.hover-bg-red-200:hover{background-color: var(--color-red-200)}.hover-bg-red-300:hover{background-color: var(--color-red-300)}.hover-bg-red-400:hover{background-color: var(--color-red-400)}.hover-bg-red-500:hover{background-color: var(--color-red-500)}.hover-bg-red-600:hover{background-color: var(--color-red-600)}.hover-bg-red-700:hover{background-color: var(--color-red-700)}.hover-bg-red-800:hover{background-color: var(--color-red-800)}.hover-bg-red-900:hover{background-color: var(--color-red-900)}.hover-bg-red-950:hover{background-color: var(--color-red-950)}
 /* ORANGE BACKGROUND COLOR */
-.hover-bg-orange-50{background-color: var(--color-orange-50)}.hover-bg-orange-100{background-color: var(--color-orange-100)}.hover-bg-orange-200{background-color: var(--color-orange-200)}.hover-bg-orange-300{background-color: var(--color-orange-300)}.hover-bg-orange-400{background-color: var(--color-orange-400)}.hover-bg-orange-500{background-color: var(--color-orange-500)}.hover-bg-orange-600{background-color: var(--color-orange-600)}.hover-bg-orange-700{background-color: var(--color-orange-700)}.hover-bg-orange-800{background-color: var(--color-orange-800)}.hover-bg-orange-900{background-color: var(--color-orange-900)}.hover-bg-orange-950{background-color: var(--color-orange-950)}
+.hover-bg-orange-50:hover{background-color: var(--color-orange-50)}.hover-bg-orange-100:hover{background-color: var(--color-orange-100)}.hover-bg-orange-200:hover{background-color: var(--color-orange-200)}.hover-bg-orange-300:hover{background-color: var(--color-orange-300)}.hover-bg-orange-400:hover{background-color: var(--color-orange-400)}.hover-bg-orange-500:hover{background-color: var(--color-orange-500)}.hover-bg-orange-600:hover{background-color: var(--color-orange-600)}.hover-bg-orange-700:hover{background-color: var(--color-orange-700)}.hover-bg-orange-800:hover{background-color: var(--color-orange-800)}.hover-bg-orange-900:hover{background-color: var(--color-orange-900)}.hover-bg-orange-950:hover{background-color: var(--color-orange-950)}
 /* YELLOW BACKGROUND COLOR */
-.hover-bg-yellow-50{background-color: var(--color-yellow-50)}.hover-bg-yellow-100{background-color: var(--color-yellow-100)}.hover-bg-yellow-200{background-color: var(--color-yellow-200)}.hover-bg-yellow-300{background-color: var(--color-yellow-300)}.hover-bg-yellow-400{background-color: var(--color-yellow-400)}.hover-bg-yellow-500{background-color: var(--color-yellow-500)}.hover-bg-yellow-600{background-color: var(--color-yellow-600)}.hover-bg-yellow-700{background-color: var(--color-yellow-700)}.hover-bg-yellow-800{background-color: var(--color-yellow-800)}.hover-bg-yellow-900{background-color: var(--color-yellow-900)}.hover-bg-yellow-950{background-color: var(--color-yellow-950)}
+.hover-bg-yellow-50:hover{background-color: var(--color-yellow-50)}.hover-bg-yellow-100:hover{background-color: var(--color-yellow-100)}.hover-bg-yellow-200:hover{background-color: var(--color-yellow-200)}.hover-bg-yellow-300:hover{background-color: var(--color-yellow-300)}.hover-bg-yellow-400:hover{background-color: var(--color-yellow-400)}.hover-bg-yellow-500:hover{background-color: var(--color-yellow-500)}.hover-bg-yellow-600:hover{background-color: var(--color-yellow-600)}.hover-bg-yellow-700:hover{background-color: var(--color-yellow-700)}.hover-bg-yellow-800:hover{background-color: var(--color-yellow-800)}.hover-bg-yellow-900:hover{background-color: var(--color-yellow-900)}.hover-bg-yellow-950:hover{background-color: var(--color-yellow-950)}
 /* GREEN BACKGROUND COLOR */
-.green-50{background-color: var(--color-green-50)}.hover-bg-green-100{background-color: var(--color-green-100)}.hover-bg-green-200{background-color: var(--color-green-200)}.hover-bg-green-300{background-color: var(--color-green-300)}.hover-bg-green-400{background-color: var(--color-green-400)}.hover-bg-green-500{background-color: var(--color-green-500)}.hover-bg-green-600{background-color: var(--color-green-600)}.hover-bg-green-700{background-color: var(--color-green-700)}.hover-bg-green-800{background-color: var(--color-green-800)}.hover-bg-green-900{background-color: var(--color-green-900)}.hover-bg-green-950{background-color: var(--color-green-950)}
+.hover-bg-green-50:hover{background-color: var(--color-green-50)}.hover-bg-green-100:hover{background-color: var(--color-green-100)}.hover-bg-green-200:hover{background-color: var(--color-green-200)}.hover-bg-green-300:hover{background-color: var(--color-green-300)}.hover-bg-green-400:hover{background-color: var(--color-green-400)}.hover-bg-green-500:hover{background-color: var(--color-green-500)}.hover-bg-green-600:hover{background-color: var(--color-green-600)}.hover-bg-green-700:hover{background-color: var(--color-green-700)}.hover-bg-green-800:hover{background-color: var(--color-green-800)}.hover-bg-green-900:hover{background-color: var(--color-green-900)}.hover-bg-green-950:hover{background-color: var(--color-green-950)}
 /* BLUE BACKGROUND COLOR */
-.hover-bg-blue-50{background-color: var(--color-blue-50)}.hover-bg-blue-100{background-color: var(--color-blue-100)}.hover-bg-blue-200{background-color: var(--color-blue-200)}.hover-bg-blue-300{background-color: var(--color-blue-300)}.hover-bg-blue-400{background-color: var(--color-blue-400)}.hover-bg-blue-500{background-color: var(--color-blue-500)}.hover-bg-blue-600{background-color: var(--color-blue-600)}.hover-bg-blue-700{background-color: var(--color-blue-700)}.hover-bg-blue-800{background-color: var(--color-blue-800)}.hover-bg-blue-900{background-color: var(--color-blue-900)}.hover-bg-blue-950{background-color: var(--color-blue-950)}
+.hover-bg-blue-50:hover{background-color: var(--color-blue-50)}.hover-bg-blue-100:hover{background-color: var(--color-blue-100)}.hover-bg-blue-200:hover{background-color: var(--color-blue-200)}.hover-bg-blue-300:hover{background-color: var(--color-blue-300)}.hover-bg-blue-400:hover{background-color: var(--color-blue-400)}.hover-bg-blue-500:hover{background-color: var(--color-blue-500)}.hover-bg-blue-600:hover{background-color: var(--color-blue-600)}.hover-bg-blue-700:hover{background-color: var(--color-blue-700)}.hover-bg-blue-800:hover{background-color: var(--color-blue-800)}.hover-bg-blue-900:hover{background-color: var(--color-blue-900)}.hover-bg-blue-950:hover{background-color: var(--color-blue-950)}
 /* PURPLE BACKGROUND COLOR */
-.hover-bg-purple-50{background-color: var(--color-purple-50)}.hover-bg-purple-100{background-color: var(--color-purple-100)}.hover-bg-purple-200{background-color: var(--color-purple-200)}.hover-bg-purple-300{background-color: var(--color-purple-300)}.hover-bg-purple-400{background-color: var(--color-purple-400)}.hover-bg-purple-500{background-color: var(--color-purple-500)}.hover-bg-purple-600{background-color: var(--color-purple-600)}.hover-bg-purple-700{background-color: var(--color-purple-700)}.hover-bg-purple-800{background-color: var(--color-purple-800)}.hover-bg-purple-900{background-color: var(--color-purple-900)}.hover-bg-purple-950{background-color: var(--color-purple-950)}
+.hover-bg-purple-50:hover{background-color: var(--color-purple-50)}.hover-bg-purple-100:hover{background-color: var(--color-purple-100)}.hover-bg-purple-200:hover{background-color: var(--color-purple-200)}.hover-bg-purple-300:hover{background-color: var(--color-purple-300)}.hover-bg-purple-400:hover{background-color: var(--color-purple-400)}.hover-bg-purple-500:hover{background-color: var(--color-purple-500)}.hover-bg-purple-600:hover{background-color: var(--color-purple-600)}.hover-bg-purple-700:hover{background-color: var(--color-purple-700)}.hover-bg-purple-800:hover{background-color: var(--color-purple-800)}.hover-bg-purple-900:hover{background-color: var(--color-purple-900)}.hover-bg-purple-950:hover{background-color: var(--color-purple-950)}
 /* PINK BACKGROUND COLOR */
-.hover-bg-pink-50{background-color: var(--color-pink-50)}.hover-bg-pink-100{background-color: var(--color-pink-100)}.hover-bg-pink-200{background-color: var(--color-pink-200)}.hover-bg-pink-300{background-color: var(--color-pink-300)}.hover-bg-pink-400{background-color: var(--color-pink-400)}.hover-bg-pink-500{background-color: var(--color-pink-500)}.hover-bg-pink-600{background-color: var(--color-pink-600)}.hover-bg-pink-700{background-color: var(--color-pink-700)}.hover-bg-pink-800{background-color: var(--color-pink-800)}.hover-bg-pink-900{background-color: var(--color-pink-900)}.hover-bg-pink-950{background-color: var(--color-pink-950)}
+.hover-bg-pink-50:hover{background-color: var(--color-pink-50)}.hover-bg-pink-100:hover{background-color: var(--color-pink-100)}.hover-bg-pink-200:hover{background-color: var(--color-pink-200)}.hover-bg-pink-300:hover{background-color: var(--color-pink-300)}.hover-bg-pink-400:hover{background-color: var(--color-pink-400)}.hover-bg-pink-500:hover{background-color: var(--color-pink-500)}.hover-bg-pink-600:hover{background-color: var(--color-pink-600)}.hover-bg-pink-700:hover{background-color: var(--color-pink-700)}.hover-bg-pink-800:hover{background-color: var(--color-pink-800)}.hover-bg-pink-900:hover{background-color: var(--color-pink-900)}.hover-bg-pink-950:hover{background-color: var(--color-pink-950)}
 
 
 /* BLACK, WHITE */
@@ -87,10 +87,11 @@
 
 /* BORDERS 1-12 px*/
 .border-1{border:1px solid;}.border-2{border:2px solid;}.border-3{border:3px solid;}.border-4{border:4px solid;}.border-5{border:5px solid;}.border-6{border:6px solid;}.border-7{border:7px solid;}.border-8{border:8px solid;}.border-9{border:9px solid;}.border-10{border:10px solid;}.border-11{border:11px solid;}.border-12{border:12px solid;}
+.border-b-1{border-bottom:1px solid;}.border-b-2{border-bottom:2px solid;}.border-b-3{border-bottom:3px solid;}.border-b-4{border-bottom:4px solid;}.b-bottom-5{border-bottom:5px solid;}.b-bottom-6{border-bottom:6px solid;}.b-bottom-7{border-bottom:7px solid;}.border-b-8{border-bottom:8px solid;}.border-b-9{border-bottom:9px solid;}.border-b-10{border-bottom:10px solid;}.border-b-11{border-bottom:11px solid;}.border-b-12{border-bottom:12px solid;}
+.border-t-1{border-top:1px solid;}.border-t-2{border-top:2px solid;}.border-t-3{border-top:3px solid;}.border-t-4{border-top:4px solid;}.border-t-5{border-top:5px solid;}.border-t-6{border-top:6px solid;}.border-t-7{border-top:7px solid;}.border-t-8{border-top:8px solid;}.border-t-9{border-top:9px solid;}.border-t-10{border-top:10px solid;}.border-t-11{border-top:11px solid;}.border-12{border:12px solid;}
+.border-l-1{border-left: 1px solid;}.border-l-2{border-left: 2px solid;}.border-l-3{border-left: 3px solid;}.border-l-4{border-left: 4px solid;}.border-l-5{border-left: 5px solid;}.border-l-6{border-left: 6px solid;}.border-l-7{border-left: 7px solid;}.border-l-8{border-left: 8px solid;}.border-l-9{border-left: 9px solid;}.border-l-10{border-left: 10px solid;}.border-l-11{border-left: 11px solid;}.border-12{border:12px solid;}
+.border-r-1{border-right: 1px solid;}.border-r-2{border-right: 2px solid;}.border-r-3{border-right: 3px solid;}.border-r-4{border-right: 4px solid;}.border-r-5{border-right: 5px solid;}.border-r-6{border-right: 6px solid;}.border-r-7{border-right: 7px solid;}.border-r-8{border-right: 8px solid;}.border-r-9{border-right: 9px solid;}.border-r-10{border-right: 10px solid;}.border-r-11{border-right: 11px solid;}.border-12{border:12px solid;}
 
-/* BORDER RADIUS */
-.radius-round{border-radius: 25px;}
-.radius-pointed{border-radius: 10px;}
 
 /* BLACK, WHITE BORDER */
 .border-white{border-color: var(--color-white)}.border-black{border-color: var(--color-black)}
@@ -110,8 +111,24 @@
 /* PINK BORDER COLOR */
 .border-pink-50{border-color: var(--color-pink-50)}.border-pink-100{border-color: var(--color-pink-100)}.border-pink-200{border-color: var(--color-pink-200)}.border-pink-300{border-color: var(--color-pink-300)}.border-pink-400{border-color: var(--color-pink-400)}.border-pink-500{border-color: var(--color-pink-500)}.border-pink-600{border-color: var(--color-pink-600)}.border-pink-700{border-color: var(--color-pink-700)}.border-pink-800{border-color: var(--color-pink-800)}.border-pink-900{border-color: var(--color-pink-900)}.border-pink-950{border-color: var(--color-pink-950)}
 
+/* BORDER RADIUS */
+.brdr-radius-2{border-radius: 2px;}
+.brdr-radius-4{border-radius: 4px;}
+.brdr-radius-6{border-radius: 6px;}
+.brdr-radius-8{border-radius: 8px;}
+.brdr-radius-10{border-radius: 10px;}
+.brdr-radius-50{border-radius: 50px;}
+
 /* POSITIONING */
-.center-align{margin:auto;}
+.align-center{margin:auto;}
+.flex{display: flex;}
+.flex-col{display:flex; flex-direction: column;}
+.justify-center{justify-content: center;}
+.justify-left{justify-content: left;}
+.justify-right{justify-content: right;}
+.align-center{align-items: center;}
+.align-left{align-items:left;}
+.align-right{align-items:right;}
 
 /* WIDTH */
 .w-25-pcnt{width: 25%;}
@@ -119,17 +136,70 @@
 .w-75-pcnt{width: 75%;}
 .w-100-pcnt{width: 100%;}
 
+/* HEIGHT */
+.h-25-px{height: 25px;}
+.h-50-px{height: 50px;}
+.h-75-px{height: 75px;}
+.h-100-px{height: 100px;}
+.h-auto{height:auto;}
+
 
 /* COMPONENTS */
-.button{
+.button-reg{
     border: 1px solid;
-    width: 250px;
+    width: 200px; /* smaller than 250px so we don't need to make them responsive*/
     height: 48px;
     border-radius: 4px;
     background-color: white;
+    display: block; /* margin-auto only works on block elements */
+    margin:0 auto; /* top and bottom 0, left and right auto, centers element */
 }
-.button:hover{
+.button-reg:hover{
     cursor: pointer;
+}
+.button-thin{
+    border: 1px solid;
+    width: 200px; /* smaller than 250px so we don't need to make them responsive*/
+    height: 35px;
+    border-radius: 4px;
+    background-color: white;
+    display: block; /* margin-auto only works on block elements */
+    margin:0 auto; /* top and bottom 0, left and right auto, centers element */
+}
+.button-thin:hover{
+    cursor: pointer;
+}
+
+.img{
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #dadada;
+}
+
+.img-banner-div{
+    width: 100%;
+    display: flex;
+    justify-content: center; align-items: center;
+}
+.img-banner-div div{
+    width: 50%;
+}
+
+.list-group{
+    min-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+.list-group li{
+    list-style: none;
+    vertical-align: middle;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid #dadada;
+    border-radius: 10px;
 }
 
 /* do the button colors*/
@@ -138,3 +208,79 @@
     display: flex; flex-direction: row; justify-content: space-evenly;
 }
 
+/* RESPONSIVE DESIGN */
+@media(max-width: 1000px){
+    .responsive-parent-div{
+        width: 100%;
+        display: flex; flex-direction: column; align-items: center;
+    }
+    .responsive-child-div{
+        width: 90%;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+}
+
+
+
+/* FONT */
+.lato-thin {
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-black {
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  

@@ -111,6 +111,11 @@
 /* PINK BORDER COLOR */
 .border-pink-50{border-color: var(--color-pink-50)}.border-pink-100{border-color: var(--color-pink-100)}.border-pink-200{border-color: var(--color-pink-200)}.border-pink-300{border-color: var(--color-pink-300)}.border-pink-400{border-color: var(--color-pink-400)}.border-pink-500{border-color: var(--color-pink-500)}.border-pink-600{border-color: var(--color-pink-600)}.border-pink-700{border-color: var(--color-pink-700)}.border-pink-800{border-color: var(--color-pink-800)}.border-pink-900{border-color: var(--color-pink-900)}.border-pink-950{border-color: var(--color-pink-950)}
 
+
+
+
+
+
 /* BORDER RADIUS */
 .brdr-radius-2{border-radius: 2px;}
 .brdr-radius-4{border-radius: 4px;}
@@ -194,6 +199,15 @@
 .img-banner-div div{
     width: 50%;
 }
+
+
+
+
+
+
+
+
+
 
 .list-group{
     min-width: 300px;

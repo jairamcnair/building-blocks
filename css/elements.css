@@ -1,0 +1,221 @@
+
+
+/*
+    THIS CSS FILE HAS PRE-MADE ELEMENT STYLING OPTIONS FOR
+    BUTTONS
+    FREE TEXT DIVS (DIVS WITH TEXT IN THEM)
+    SECTION HEADER DIVS 
+    FORM INPUTS FOR TEXT, DATE, FILE, ETC...
+
+    FOR COLORS AND OTHER AESTHETIC STYLING OPTIONS IMPORT AND ALSO USE THE colors.css and styles.css FILES
+*/
+
+
+* {margin: 0px;padding: 0px;box-sizing: border-box;}
+
+
+
+
+
+
+
+
+.button-sm{
+    border: 1px solid;
+    width: 100px; /* smaller than 250px so we don't need to make them responsive*/
+    height: 48px;
+    background-color: white;
+    display: block; /* margin-auto only works on block elements */
+    margin:10px auto; /* top and bottom 0, left and right auto, centers element */
+}
+.button-sm:hover{
+    cursor: pointer;
+}
+
+.button-reg{
+    border: 1px solid;
+    width: 200px; /* smaller than 250px so we don't need to make them responsive*/
+    height: 48px;
+    background-color: white;
+    display: block; /* margin-auto only works on block elements */
+    margin:10px auto; /* top and bottom 0, left and right auto, centers element */
+}
+.button-reg:hover{
+    cursor: pointer;
+}
+
+.button-lg{
+    border: 1px solid;
+    width: 300px; /* smaller than 250px so we don't need to make them responsive*/
+    height: 48px;
+    background-color: white;
+    display: block; /* margin-auto only works on block elements */
+    margin:10px auto; /* top and bottom 0, left and right auto, centers element */
+}
+.button-lg:hover{
+    cursor: pointer;
+}
+
+.button-w-100-pcnt{
+    border: 1px solid;
+    width: 98%; /* smaller than 250px so we don't need to make them responsive*/
+    height: 48px;
+    background-color: white;
+    display: block; /* margin-auto only works on block elements */
+    margin:10px 1%; /* top and bottom 0, left and right auto, centers element */
+}
+.button-w-100-pcnt:hover{
+    cursor: pointer;
+}
+@media(max-width: 855px){
+    .button-w-100-pcnt{width: 90%;margin: 10px auto;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.free-text-div-left{
+    min-height: 48px;
+    display: flex; justify-content: left; align-items: center;
+    padding: 1%;
+}
+.free-text-div-center{
+    min-height: 48px;
+    display: flex; justify-content: center; align-items: center;
+    padding: 1%;
+}
+.free-text-div-right{
+    min-height: 48px;
+    display: flex; justify-content: right; align-items: center;
+    padding: 1%;
+}
+@media(max-width: 855px){
+    .free-text-div-left{width: 90%; margin: auto;margin-bottom: 10px;}
+    .free-text-div-center{width: 90%; margin: auto;margin-bottom: 10px;}
+    .free-text-div-right{width: 90%; margin: auto;margin-bottom: 10px;}
+}
+/*
+<div class="free-text-div-left">For colors, also import the colors.css file.</div>
+*/
+
+
+
+
+
+
+
+
+
+
+.sectionheader-left-parent{width: 100%;margin-top: 50px;margin-bottom: 50px;display: flex;justify-content: center;align-items: center;padding: 10px;padding-left:1%;padding-right:1%;min-height: 40px; font-size: xx-large;}
+.sectionheader-left-child{width: 100%;}
+@media(max-width: 855px){
+    .sectionheader-left-child{width: 90%; margin: 0;margin-bottom: 10px;}
+}
+
+.sectionheader-center-parent{width: 100%;margin-top: 50px;margin-bottom: 50px;display: flex;justify-content: center;align-items: center;padding: 10px;padding-left:1%;padding-right:1%;min-height: 40px; font-size: xx-large;}
+.sectionheader-center-child{width: 100%;display: flex; justify-content: center; align-items: center;}
+@media(max-width: 855px){
+    .sectionheader-center-child{width: 90%; margin: 0;margin-bottom: 10px;}
+}
+
+.sectionheader-right-parent{width: 100%;margin-top: 50px;margin-bottom: 50px;display: flex;justify-content: center;align-items: center;padding: 10px;padding-left:1%;padding-right:1%;min-height: 40px; font-size: xx-large;}
+.sectionheader-right-child{width: 100%;display: flex; justify-content: right; align-items: right;}
+@media(max-width: 855px){
+    .sectionheader-right-child{width: 90%; margin: 0;margin-bottom: 10px;justify-content: center; align-items: center;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.list-group{
+    width: 98%;
+    margin: 1%;
+    min-width: 300px;
+    margin: 10px auto;
+}
+.list-group-title{
+    border: 1px solid;
+}
+.list-group li{
+    list-style: none;
+    vertical-align: middle;
+    width: 100%;
+    padding: 20px;
+}
+@media(max-width: 855px){
+    .list-group{width: 90%; margin: auto;margin-bottom: 10px;}
+}
+/*
+    <ul class="list-group">
+        <li class="list-group-title">List Title</li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+    </ul>
+*/
+
+
+
+
+.input-label-left{
+    min-height: 24px; font-size:large;
+    display: flex; justify-content: left; align-items: center;
+    padding-left: 1%;padding-right:1%;
+}
+.input-label-center{
+    min-height: 24px;
+    display: flex; justify-content: center; align-items: center;
+    padding-left: 1%;padding-right:1%;
+}
+.input-label-right{
+    min-height: 24px;
+    display: flex; justify-content: right; align-items: center;
+    padding-left: 1%;padding-right:1%;
+}
+@media(max-width: 855px){
+    .input-label-left{width: 90%; margin: auto;margin-bottom: 10px;}
+    .input-label-center{width: 90%; margin: auto;margin-bottom: 10px;}
+    .input-label-right{width: 90%; margin: auto;margin-bottom: 10px;}
+}
+
+/*
+<div class="free-text-div-left">Text Input</div>
+*/
+
+.input{
+    min-height: 50px;
+    min-width: 250px;
+    /*width: 500px;*/
+    width: 98%;
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid;
+
+    margin-left: auto;margin-right:auto;
+    margin-bottom: 10px;
+}
+.input:focus{
+    outline: 1px solid #a09e9e;
+}
+@media(max-width: 855px){
+    .input{width: 90%; margin: auto;margin-bottom: 10px;}
+}

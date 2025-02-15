@@ -123,6 +123,23 @@ THE LAYOUT PARENTS HAVE A WIDTH OF 100% SO IF YOU WANT TO CHANGE THAT...
     </div>
 */
 
+.sectionheader-left-parent{width: 100%;margin-top: 50px;display: flex;justify-content: center;align-items: center;padding: 10px;padding-left:1%;padding-right:1%;min-height: 40px; font-size: xx-large;}
+.sectionheader-left-child{width: 100%;}
+@media(max-width: 855px){
+    .sectionheader-left-child{width: 90%; margin: 0;margin-bottom: 10px;}
+}
+
+.sectionheader-center-parent{width: 100%;margin-top: 50px;display: flex;justify-content: center;align-items: center;padding: 10px;padding-left:1%;padding-right:1%;min-height: 40px; font-size: xx-large;}
+.sectionheader-center-child{width: 100%;display: flex; justify-content: center; align-items: center;}
+@media(max-width: 855px){
+    .sectionheader-center-child{width: 90%; margin: 0;margin-bottom: 10px;}
+}
+
+.sectionheader-right-parent{width: 100%;margin-top: 50px;display: flex;justify-content: center;align-items: center;padding: 10px;padding-left:1%;padding-right:1%;min-height: 40px; font-size: xx-large;}
+.sectionheader-right-child{width: 100%;display: flex; justify-content: right; align-items: right;}
+@media(max-width: 855px){
+    .sectionheader-right-child{width: 90%; margin: 0;margin-bottom: 10px;justify-content: center; align-items: center;}
+}
 
 
 .square-div-10-pcnt{width: 10vw;height: 10vw;border: 1px solid;}

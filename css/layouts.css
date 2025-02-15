@@ -8,29 +8,69 @@ THE LAYOUT PARENTS HAVE A WIDTH OF 100% SO IF YOU WANT TO CHANGE THAT...
 
 */
 
-/* one div in a container */
-.uni-div-parent{width: 100%;display: flex;justify-content: center;align-items: center;padding: 10px;}
-.uni-div-child{width: 75%;border: 1px solid;min-height: 250px;}
+.smallbig-parent{width: 100%;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;padding: 1%;}
+.smallbig-small-child{width: 39%; margin-right: 1%;border: 1px solid;min-height: 250px;}
+.smallbig-big-child{width: 60%;border: 1px solid;min-height: 250px;}
+  @media(max-width: 855px){
+    .smallbig-big-child, .smallbig-small-child{
+      width: 90%; margin: 0; padding: 0; margin-bottom: 10px;
+    }
+    .smallbig-parent{padding-bottom: 0;padding-top:0;}
+    .smallbig-small-child{}
+  }
+/*  small div, big div HTML
+    <div class="smallbig-parent"> 
+        <div class="smallbig-small-child"></div>
+        <div class="smallbig-big-child"></div>
+    </div>
+
+*/
+
+.bigsmall-parent{width: 100%;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;padding: 1%;}
+.bigsmall-big-child{width: 60%;border: 1px solid;min-height: 250px;}
+.bigsmall-small-child{width: 39%; margin-left: 1%;border: 1px solid;min-height: 250px;}
+@media(max-width: 855px){
+  .bigsmall-big-child, .bigsmall-small-child{
+    width: 90%; margin: 0; padding: 0; margin-bottom: 10px;
+  }
+  .bigsmall-parent{padding-bottom: 0;padding-top:0;}
+  .bigsmall-big-child{}
+}
+/* big div, small div HTML
+    <div class="bigsmall-parent"> 
+        <div class="bigsmall-big-child"></div>
+        <div class="bigsmall-small-child"></div>
+    </div>
+
+*/
+
+.uni-div-parent{width: 100%;display: flex;justify-content: center;align-items: center;padding: 1%;}
+.uni-div-child{width: 100%;border: 1px solid;min-height: 250px;}
   @media(max-width: 855px){
     .uni-div-child{
-      width: 90%;
+      width: 90%; margin: 0;margin-bottom: 10px;
     }
+    .uni-div-parent{padding: 0;padding-left:1%;padding-right:1%;}
   }
   /* uni div HTML
     <div class="uni-div-parent"> 
         <div class="uni-div-child"> 
         </div>
     </div>
+
   */
-.twobytwo-parent{display: flex;flex-direction: wrap;justify-content: center;width: 100%;flex-wrap: wrap;padding-top: 10px; /* half childrens' margin*/padding-bottom: 10px; /* half childrens' margin*/}
-.twobytwo-child{display: flex;flex-wrap: wrap;justify-content: center;align-items: center;width: 100%;}
-.twobytwo-child-child{min-height: 250px;margin: 10px;min-height: 250px;width: 37%;border: 1px solid;}
-@media(max-width: 855px){
+
+.twobytwo-parent{display: flex;flex-direction: wrap;justify-content: center;width: 100%;flex-wrap: wrap;}
+.twobytwo-child{display: flex;flex-wrap: wrap;justify-content: center;align-items: center;width: 100%; }
+.twobytwo-child-child{min-height: 250px;width: 48%; margin: 1%;border: 1px solid;}
+  @media(max-width: 855px){
     .twobytwo-child-child{
-      width: 90%;
+      width: 90%; margin: 0; padding: 0; margin-bottom: 10px;
     }
+    .twobytwo-child{padding:1%;padding-bottom:0;padding-top:0;}
   }
-/* two column, two row grid div HTML
+
+  /* two column, two row grid div HTML
     <div class="twobytwo-parent"> 
         <div class="twobytwo-child"> 
             <div class="twobytwo-child-child"></div><div class="twobytwo-child-child"></div>
@@ -40,13 +80,16 @@ THE LAYOUT PARENTS HAVE A WIDTH OF 100% SO IF YOU WANT TO CHANGE THAT...
         </div>
     </div>
   */
-.threebytwo-parent{display: flex;flex-direction: wrap;justify-content: center;width: 100%;flex-wrap: wrap;padding-top: 10px; /* half childrens' margin*/padding-bottom: 10px; /* half childrens' margin*/}
+
+.threebytwo-parent{display: flex;flex-direction: wrap;justify-content: center;width: 100%;flex-wrap: wrap;}
 .threebytwo-child{display: flex;flex-wrap: wrap;justify-content: center;align-items: center;width: 100%;}
-.threebytwo-child-child{min-height: 250px;margin: 10px;min-height: 250px;width: 30%;border: 1px solid;}
-@media(max-width: 855px){
+.threebytwo-child-child{min-height: 250px;margin: 1%; width: 31.32%;border: 1px solid;}
+
+  @media(max-width: 855px){
     .threebytwo-child-child{
-      width: 90%;
+      width: 90%; margin: 0; padding: 0; margin-bottom: 10px;
     }
+    .threebytwo-child{padding:1%;padding-bottom:0;padding-top:0;}
   }
 /* three column, two row grid div HTML
     <div class="threebytwo-parent"> 
@@ -57,14 +100,17 @@ THE LAYOUT PARENTS HAVE A WIDTH OF 100% SO IF YOU WANT TO CHANGE THAT...
             <div class="threebytwo-child-child"></div><div class="threebytwo-child-child"></div><div class="threebytwo-child-child"></div>
         </div>
     </div>
+
 */
-.fourbytwo-parent{display: flex;flex-direction: wrap;justify-content: center;width: 100%;flex-wrap: wrap;padding-top: 10px; /* half childrens' margin*/padding-bottom: 10px; /* half childrens' margin*/}
+
+.fourbytwo-parent{display: flex;flex-direction: wrap;justify-content: center;width: 100%;flex-wrap: wrap;}
 .fourbytwo-child{display: flex;flex-wrap: wrap;justify-content: center;align-items: center;width: 100%;}
-.fourbytwo-child-child{min-height: 250px;margin: 10px;min-height: 250px;width: 22%;border: 1px solid;}
+.fourbytwo-child-child{min-height: 250px;margin: 1%; width: 23%;border: 1px solid;}
 @media(max-width: 855px){
   .fourbytwo-child-child{
-    width: 90%;
+    width: 90%; margin: 0; padding: 0; margin-bottom: 10px;
   }
+  .fourbytwo-child{padding:1%;padding-bottom:0;padding-top:0;}
 }
 /*  four column, two row grid HTML
     <div class="fourbytwo-parent"> 
@@ -76,36 +122,8 @@ THE LAYOUT PARENTS HAVE A WIDTH OF 100% SO IF YOU WANT TO CHANGE THAT...
         </div>
     </div>
 */
-.bigsmall-parent{width: 100%;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;padding: 10px;}
-.bigsmall-big-child{width: 60%;border: 1px solid;min-height: 250px;margin: 10px;}
-.bigsmall-small-child{width: 30%;border: 1px solid;min-height: 250px;margin: 10px;min-width: 250px;}
-  @media(max-width: 855px){
-    .bigsmall-big-child, .bigsmall-small-child{
-      width: 90%;
-    }
-  }
-  /* big div, small div HTML
-      <div class="bigsmall-parent"> 
-          <div class="bigsmall-big-child"></div>
-          <div class="bigsmall-small-child"></div>
-      </div>
-  */
 
-.smallbig-parent{width: 100%;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;padding: 10px;}
-.smallbig-big-child{width: 60%;border: 1px solid;min-height: 250px;margin: 10px;}
-.smallbig-small-child{width: 30%;border: 1px solid;min-height: 250px;margin: 10px;min-width: 250px;}
-@media(max-width: 855px){
-    .smallbig-big-child, .smallbig-small-child{
-      width: 90%;
-    }
-}
-/*  small div, big div HTML
-    <div class="smallbig-parent"> 
-        <div class="smallbig-small-child"></div>
-        <div class="smallbig-big-child"></div>
-    </div>
 
-*/
 
 .square-div-10-pcnt{width: 10vw;height: 10vw;border: 1px solid;}
 .square-div-20-pcnt{width: 20vw;height: 20vw;border: 1px solid;}

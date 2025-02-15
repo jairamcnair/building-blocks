@@ -404,10 +404,10 @@
   }
   @media(max-width: 855px){
     .smallbig-big-child, .smallbig-small-child{
-      width: 90%;margin: 1%;
+      width: 90%; margin: 0; padding: 0; margin-bottom: 10px;
     }
-    .smallbig-parent{}
-    .smallbig-small-child{margin-bottom: 1%;margin-top:0;}
+    .smallbig-parent{padding-bottom: 0;padding-top:0;}
+    .smallbig-small-child{}
   }
 /*  small div, big div HTML
     <div class="smallbig-parent"> 
@@ -440,10 +440,10 @@
 }
 @media(max-width: 855px){
   .bigsmall-big-child, .bigsmall-small-child{
-    width: 90%; margin: 1%;
+    width: 90%; margin: 0; padding: 0; margin-bottom: 10px;
   }
-  .bigsmall-parent{}
-  .bigsmall-big-child{margin-bottom: 1%;margin-top:0;}
+  .bigsmall-parent{padding-bottom: 0;padding-top:0;}
+  .bigsmall-big-child{}
 }
 /* big div, small div HTML
     <div class="bigsmall-parent"> 
@@ -467,8 +467,9 @@
   }
   @media(max-width: 855px){
     .uni-div-child{
-      width: 90%;
+      width: 90%; margin: 0;margin-bottom: 10px;
     }
+    .uni-div-parent{padding: 0;padding-left:1%;padding-right:1%;}
   }
   /* uni div HTML
     <div class="uni-div-parent"> 

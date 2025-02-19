@@ -12,10 +12,11 @@ div:hover{
 #container{
     width: 200px;height: auto;
     border: 1px solid hsl(0, 0%, 85%);
+    border-radius: 15px;
 }
 #container-sm{
     width: 60px;
-    border: 1px solid hsl(0, 0%, 85%);
+    border: 1px solid hsl(0, 0%, 85%);border-radius: 15px;
 }
 #buttercup{
     width: 100%; height: 50px; border-bottom: 1px solid #dadada;
@@ -101,14 +102,14 @@ div:hover{
         font-style: normal;
 }
 #split-div{
-    display: flex;
+    display: flex;justify-content: center; align-items: center;
 }
 #split-div-sm{
     
 }
 .split-div-inner{
         width: 50%;
-        height: 50px; border: 1px solid #dadada;
+        height: 100px; 
         display: flex;justify-content:center;align-items: center;
         font-size:small;
         color: rgb(135, 131, 126);
@@ -118,7 +119,7 @@ div:hover{
 }
 .split-div-inner-sm{
     width: 100%;
-    height: 50px; border-bottom: 1px solid #dadada;
+    height: 50px; 
     display: flex;justify-content:center;align-items: center;
     font-size:small;
     color: rgb(135, 131, 126);
